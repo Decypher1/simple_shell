@@ -76,6 +76,6 @@ total 84
 $ pps
 Does not execute, write valid command: No such file or directory
 ```
-## Autors
+## Authors
 - [Martins Umekwe](https://github.com/Decypher1)
 - [Dandy Okoro](https://github.com/demondandy)
