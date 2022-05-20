@@ -16,6 +16,7 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 	_strcpy(error, datash->av[0]);
 	_strcat(error, ": ");
 	_strcat(error, ver_str);
+	_strcat(error, ": ");
 	_strcat(error, datash->args[0]);
 	_strcat(error, msg);
 	if (datash->args[1][0] == '-')
