@@ -84,6 +84,7 @@ line_list *add_line_node_end(line_list **head, char *line)
 			temp = temp->next;
 		temp->next = new;
 	}
+
 	return (*head);
 }
 
